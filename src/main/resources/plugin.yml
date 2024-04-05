@@ -1,7 +1,0 @@
-name: ResetLibrary
-version: '${project.version}'
-main: de.paulflohr.resetlibrary.ResetLibrary
-api-version: '1.20'
-prefix: ResetLib
-authors: [1MinutePlease]
-description: A library to send reset events to other server plugins.
