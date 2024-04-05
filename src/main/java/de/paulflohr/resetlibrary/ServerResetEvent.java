@@ -26,7 +26,7 @@ public class ServerResetEvent extends Event {
     }
 
     public String getResetMessage() {
-        return resetMessage;
+        return resetMessage.replaceAll("[sender]", executor.getName());
     }
 
     public void setResetMessage(String resetMessage) {
