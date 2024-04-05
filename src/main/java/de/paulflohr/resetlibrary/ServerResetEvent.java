@@ -9,6 +9,10 @@ public class ServerResetEvent extends Event {
 
     private String resetMessage;
 
+    public static HandlerList getHandlerList() {
+        return HANDLERS;
+    }
+
     @Override
     public HandlerList getHandlers() {
         return HANDLERS;
